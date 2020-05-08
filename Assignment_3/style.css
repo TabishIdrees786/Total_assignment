@@ -1,0 +1,228 @@
+.main_head{
+    color: white;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around   ;
+    background-color: blueviolet;
+    height: 40px;
+}
+.one,.two,.three{
+    height: 25px;
+    text-align: center;
+
+}
+.one{
+    flex: 1;
+}
+.two{
+    flex: 2;
+}
+.three{
+    flex: 1;
+}
+.four{
+    flex: 4;
+}
+ul,li{
+    display: inline;
+}
+.icon{
+    height: 20px;
+    width: 20px;
+    margin: 5px;
+    border-radius: 5px;
+    
+}
+.mak{
+    margin: 5px;
+    padding: 5px;
+    border-radius: 5px;
+}
+.second_head{
+    height: 100px;
+    display: flex;
+    background-color: lightcyan;
+}
+.second_button{
+    padding: 10px;
+    margin: 10px;
+    border-radius: 15px;   
+    background-color: lightcyan;
+    border: none;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-size: large;
+}
+.second_button:hover,.home {
+    background-color: blue;
+    box-shadow: 5px 10px 20px gray;
+}
+.left{
+    text-align: center;
+}
+.fourth_head{
+    background-color: white;
+    width: 100%;
+}
+.fourth_para{
+    align-self: center;
+    background-color: blueviolet;
+    text-align: center;
+    width: 90%;
+    padding: 10px;
+    margin: 0px auto;
+    font-family: fantasy;
+}
+.heading{
+    text-align: center;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+.intro{
+    color: blueviolet;
+}
+.duction{
+    color: red;
+}
+.heading_2{
+    color: red;
+    text-align: center;
+}
+.fifth_head{
+    width: 100%;
+    height: 600px;
+    background-color: lightcyan;
+}
+.fifth_box{
+    margin: 40px auto ;
+    text-align: justify;
+    width: 70%;
+    font-family: sans-serif;
+    font-size: large;
+    color: gray;
+}
+.sixth_head{
+    display: flex;
+    background-color: blueviolet;
+    width: 100%;
+}
+.re{
+    color: red;
+}
+.wid{
+    width: 50px;
+    height: 50px;
+}
+.sixth_tab{
+    color: white;
+    font-size: large;
+    padding: 40px 40px 40px 40px;
+    margin: 0 auto;
+}
+.sixth_td{
+    font-family: cursive;
+    font-size: larger;
+}
+.sixth_p{
+    font-size: xx-large;
+    font-weight: 900;
+    font-style: oblique;
+}
+.sixth_p2{
+    font-size: large;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+
+}
+.seventh_tab{
+    background-color: lightcyan;
+    width: 100%;
+    padding: 50px;
+    margin: 0 auto;
+    text-align: center;
+}
+.seventh_img{
+  width: 70px;
+    height: 70px;  
+
+}
+.seventh_td{
+    box-shadow: 5px 5px 15px gray;
+    padding: 20px 20px 20px 20px ;
+    margin: 20px 20px 20px 20px ;
+    width: 20%;
+}
+.seventh_p{
+    font-family: cursive;
+    font-size: larger;
+    color: blueviolet;
+    font-weight: bold;
+    text-decoration: none;
+}
+.eight_tab{
+    width: 100%;
+    padding: 30px 30px 30px 30px;
+    margin: 20px 0;
+}
+.eight_tr{
+    font-size: xx-large;
+    color: blueviolet;
+    font-family: 'Jazz LET', 'fantasy';
+    font-weight: bold;
+    padding: 40px 40px 40px 40px;
+    margin: 40px 40px 40px 40px;
+
+}
+.eight_td{
+    background-color: lightcyan;
+    padding: 20px 20px 20px 20px;
+    margin: 20px 20px 20px 20px;
+    border-radius: 5px;
+    box-shadow: 5px 5px 5px grey;
+}
+.imagefooter{
+    position: fixed;
+    right: 20px;
+    bottom: 10px;
+    padding: 20px;
+    margin: 20px;
+}
+.tdd{
+    color: gray;
+}
+.ninth_head{
+    display:flex;
+    text-align: center;
+    margin: 20px 0 100px 0;
+}
+.ninth_pic{
+    width: 250px;
+    height: 250px;
+    padding: 5px 5px 5px 5px;
+}
+.ten_head{
+    padding: 2px;
+    display: flex;
+    background-color: darkslategray;
+    width: 100%;
+    height: 200px;
+}
+.ten_d{
+    padding: 20px 20px 20px 20px;
+    margin: 20px 20px 20px 20px;
+    color: white;
+}
+.ten_f{
+    font-family: monospace;
+}
+.ten_2{
+    font-family: monNew Century Schoolbookospace;
+    font-size: xx-large;
+    font-weight: bold;
+}
+.last_footer{
+    width: 100%;
+    height: 30px;
+    background-color: blueviolet;
+    text-align: center;
+}
+.fifth_head{
+    overflow: scroll;
+}
